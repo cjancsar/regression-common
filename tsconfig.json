@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "declaration": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "target": "ES6",
+    "sourceMap": true,
+    "outDir": "./lib",
+    "baseUrl": "./src",
+    "rootDir": "./src",
+    "paths": {
+      "express": ["/nest/multi-tenancy/types/*"]
+    },
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules", "lib"]
+}

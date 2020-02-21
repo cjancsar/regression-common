@@ -1,0 +1,95 @@
+{
+  "name": "regression-external-dto",
+  "version": "0.1.5",
+  "private": false,
+  "description": "Sample regression",
+  "repository": "git://github.com/h2-nirvana/nirvana.git",
+  "license": "unlicensed",
+  "author": "cjancsar",
+  "files": [
+    "lib"
+  ],
+  "main": "./lib/index.js",
+  "scripts": {
+    "prebuild": "rimraf lib",
+    "build": "tsc -p ./tsconfig.build.json",
+    "lint": "tslint -p ./tsconfig.json -c ./tslint.json --fix",
+    "lint:check": "tslint -p tsconfig.json -c tslint.json",
+    "prettify:check": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\" \"src/**/*.js\"",
+    "prettify:write": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\" \"src/**/*.js\"",
+    "release": "release-it",
+    "test": "jest --detectOpenHandles --forceExit --verbose --watchAll=false",
+    "test:cov": "jest --detectOpenHandles --forceExit --verbose --coverage",
+    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+    "test:watch": "jest --detectOpenHandles --forceExit --verbose --watch"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage",
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/__tests__/**/*.(ts|js))",
+      "**/?(*.)+(spec|test).(ts|js)"
+    ],
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    }
+  },
+  "devDependencies": {
+    "@nestjs/swagger": "^4.2.11",
+    "class-transformer": "^0.2.3",
+    "class-validator": "^0.11.0",
+    "rxjs": "^6.5.4",
+    "ts-node": "^8.4.1",
+    "@nestjs/cli": "^6.12.9",
+    "@nestjs/common": "^6.10.13",
+    "@nestjs/core": "^6.10.13",
+    "@nestjs/schematics": "^6.7.6",
+    "@nestjs/testing": "^6.10.13",
+    "@types/bluebird": "^3.5.29",
+    "@types/jest": "^24.0.25",
+    "@types/node": "^12.12.14",
+    "@types/validator": "10.11.3",
+    "jest": "^25.1.0",
+    "prettier": "^1.18.2",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.0",
+    "ts-jest": "^25.2.1",
+    "tslint-jest": "^1.0.5",
+    "typescript": "^3.7.4",
+    "validator": "^12.0.0"
+  },
+  "peerDependencies": {
+    "@nestjs/swagger": "^4.2.11",
+    "class-transformer": "^0.2.3",
+    "class-validator": "^0.11.0",
+    "rxjs": "^6.5.4",
+    "ts-node": "^8.4.1",
+    "@nestjs/cli": "^6.12.9",
+    "@nestjs/common": "^6.10.13",
+    "@nestjs/core": "^6.10.13",
+    "@nestjs/schematics": "^6.7.6",
+    "@nestjs/testing": "^6.10.13",
+    "@types/bluebird": "^3.5.29",
+    "@types/jest": "^24.0.25",
+    "@types/node": "^12.12.14",
+    "@types/validator": "10.11.3",
+    "jest": "^25.1.0",
+    "prettier": "^1.18.2",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.0",
+    "ts-jest": "^25.2.1",
+    "tslint-jest": "^1.0.5",
+    "typescript": "^3.7.4",
+    "validator": "^12.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "test": "./lib/index.js"
+}

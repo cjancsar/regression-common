@@ -1,0 +1,2 @@
+# prevent git from converting linebreaks in .js files
+*.js text eol=lf
