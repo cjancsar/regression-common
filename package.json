@@ -394,7 +394,7 @@
     "json-schema-traverse": "^0.4.1",
     "json-stringify-safe": "^5.0.1",
     "jsonfile": "^4.0.0",
-    "kind-of": "^3.2.2",
+    "kind-of": "^6.0.3",
     "loader-runner": "^2.4.0",
     "json5": "^1.0.1",
     "loader-utils": "^1.4.0",
