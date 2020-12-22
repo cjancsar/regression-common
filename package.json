@@ -450,7 +450,7 @@
     "node-emoji": "^1.10.0",
     "normalize-path": "^2.1.1",
     "node-modules-regexp": "^1.0.0",
-    "node-notifier": "^6.0.0",
+    "node-notifier": "^8.0.1",
     "oauth-sign": "^0.9.0",
     "npm-run-path": "^2.0.2",
     "nwsapi": "^2.2.0",
