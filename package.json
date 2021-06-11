@@ -290,7 +290,7 @@
     "gensync": "^1.0.0-beta.1",
     "glob": "^7.1.6",
     "get-stream": "^4.1.0",
-    "glob-parent": "^3.1.0",
+    "glob-parent": "^5.1.2",
     "get-caller-file": "^2.0.5",
     "get-value": "^2.0.6",
     "google-libphonenumber": "^3.2.6",
