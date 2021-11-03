@@ -65,7 +65,7 @@
     "ts-jest": "^25.2.1",
     "tslint-jest": "^1.0.5",
     "typescript": "^3.7.4",
-    "validator": "^12.0.0"
+    "validator": "^13.7.0"
   },
   "peerDependencies": {
     "@nestjs/swagger": "^4.2.11",
@@ -89,7 +89,7 @@
     "ts-jest": "^25.2.1",
     "tslint-jest": "^1.0.5",
     "typescript": "^3.7.4",
-    "validator": "^12.0.0"
+    "validator": "^13.7.0"
   },
   "test": "./lib/index.js",
   "bugs": {
