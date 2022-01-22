@@ -441,7 +441,7 @@
     "natural-compare": "^1.4.0",
     "nanomatch": "^1.2.13",
     "node-int64": "^0.4.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^3.1.1",
     "ms": "^2.0.0",
     "neo-async": "^2.6.1",
     "node-libs-browser": "^2.2.1",
