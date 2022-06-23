@@ -388,7 +388,7 @@
     "js-yaml": "^3.13.1",
     "json-parse-better-errors": "^1.0.2",
     "jsesc": "^2.5.2",
-    "jsdom": "^15.2.1",
+    "jsdom": "^16.5.0",
     "json-schema": "^0.2.3",
     "jsprim": "^1.4.1",
     "json-schema-traverse": "^0.4.1",
