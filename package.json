@@ -46,7 +46,7 @@
   "devDependencies": {
     "@nestjs/swagger": "^4.2.11",
     "class-transformer": "^0.2.3",
-    "class-validator": "^0.11.0",
+    "class-validator": "^0.14.0",
     "rxjs": "^6.5.4",
     "ts-node": "^8.4.1",
     "@nestjs/cli": "^6.12.9",
@@ -70,7 +70,7 @@
   "peerDependencies": {
     "@nestjs/swagger": "^4.2.11",
     "class-transformer": "^0.2.3",
-    "class-validator": "^0.11.0",
+    "class-validator": "^0.14.0",
     "rxjs": "^6.5.4",
     "ts-node": "^8.4.1",
     "@nestjs/cli": "^6.12.9",
